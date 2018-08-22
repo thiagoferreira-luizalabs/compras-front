@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import 'semantic-ui-css/semantic.min.css';
 import { Menu, Button } from 'semantic-ui-react'
-
-console.log(`${process.env.REACT_APP_NAME} `)
+import "./index.css"
 
 class App extends Component {
   render() {

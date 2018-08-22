@@ -90,6 +90,10 @@ exports[`Renders without crashing 1`] = `
         </MenuItem>
       </div>
     </Menu>
+    <p>
+      Version 
+      0.1.0
+    </p>
   </div>
 </App>
 `;
