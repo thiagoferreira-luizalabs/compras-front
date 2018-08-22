@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import './App.css';
 import 'semantic-ui-css/semantic.min.css';
 import { Menu, Button } from 'semantic-ui-react'
 
+console.log(`${process.env.REACT_APP_NAME} `)
 
 class App extends Component {
   render() {
+    const version = process.env.REACT_APP_VERSION
     return (
       <div className="App">
         <Menu>
@@ -21,6 +22,7 @@ class App extends Component {
             <Button>Log-in</Button>
           </Menu.Item>
         </Menu>
+        <p>Version {version}</p>
       </div>
     );
   }
