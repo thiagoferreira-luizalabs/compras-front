@@ -1,9 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import App from './App';
+import { mount, toJson } from "./testUtils"
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
-});
+it("Renders without crashing", () => {
+  let wrapper = mount(<App />)
+  expect(toJson(wrapper)).toMatchSnapshot()
+})
