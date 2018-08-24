@@ -1,5 +1,5 @@
 import React from 'react';
-import Login from "./login"
+import Login from "./Login"
 import { mount, toJsonSnapshot } from "../../testUtils"
 
 it("Renders without crashing", () => {
