@@ -1,8 +1,8 @@
 import React from 'react';
 import Login from "./login"
-import { mount, toJson } from "../../testUtils"
+import { mount, toJsonSnapshot } from "../../testUtils"
 
 it("Renders without crashing", () => {
   let wrapper = mount(<Login />)
-  expect(toJson(wrapper)).toMatchSnapshot()
+  expect(toJsonSnapshot(wrapper)).toMatchSnapshot()
 })

@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import Login from "./containers/login/login"
-
+import PageHeader from "./components/page-header/PageHeader"
 
 class App extends Component {
   render() {
     const version = process.env.REACT_APP_VERSION
+    const { isAuthenticated } = this.props.auth
+
     return (
       <div className="App">
-        <Login />
+        {isAuthenticated && <PageHeader />}
         {this.props.children}
         <p>Version {version}</p>
       </div>

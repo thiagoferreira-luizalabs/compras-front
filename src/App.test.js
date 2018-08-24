@@ -1,8 +1,27 @@
 import React from 'react';
 import App from './App';
-import { mount, toJson } from "./testUtils"
+import { mount, toJsonSnapshot, MemoryRouterHOC } from "./testUtils"
 
-it("Renders without crashing", () => {
-  let wrapper = mount(<App />)
-  expect(toJson(wrapper)).toMatchSnapshot()
+it("Renders public page without menu", () => {
+  const props = {
+    auth: {
+      isAuthenticated: false,
+      user: null,
+      token: null
+    }
+  }
+  let wrapper = mount(MemoryRouterHOC(<App {...props}>Testing</App>))
+  expect(toJsonSnapshot(wrapper)).toMatchSnapshot()
+})
+
+it("Renders private page with menu", () => {
+  const props = {
+    auth: {
+      isAuthenticated: true,
+      user: "Tester",
+      token: "12321312"
+    }
+  }
+  let wrapper = mount(MemoryRouterHOC(<App {...props}>Testing</App>))
+  expect(toJsonSnapshot(wrapper)).toMatchSnapshot()
 })
