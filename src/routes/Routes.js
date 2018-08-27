@@ -5,6 +5,7 @@ import App from "../App"
 import AuthService from "../services/AuthService"
 // Pages
 import Login from "../containers/login/Login"
+import Theme from "../containers/theme/Theme"
 const Home = () => (<h1>Welcome to the homepage. You are logged in! Go corintia. </h1>)
 
 class Routes extends Component {
@@ -38,6 +39,7 @@ class Routes extends Component {
 
             {/* Private Routes */}
             <AppRoute private exact {...this.state} path="/home" component={Home} />
+            <AppRoute private exact {...this.state} path="/theme" component={Theme} />
 
             <AppRoute exact {...this.state} path="/logout" component={() => this.logout()} />
 

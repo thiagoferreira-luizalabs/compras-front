@@ -4,16 +4,15 @@ import { Link } from "react-router-dom"
 
 export default () => (
   <Menu>
-    <Menu.Item header>Compras</Menu.Item>
-    <Menu.Item name='aboutUs' />
-    <Menu.Item name='jobs' />
-    <Menu.Item name='locations' />
+    <Menu.Item header>
+      <Link to="/home">Compras</Link>
+    </Menu.Item>
     <Menu.Item>
-      <Button primary>Sign up</Button>
+      <Link to="/theme">Theme</Link>
     </Menu.Item>
 
     <Menu.Item>
-      <Link to="/logout"><Button>Logout</Button></Link> :
+      <Link to="/logout"><Button>Logout</Button></Link>
     </Menu.Item>
   </Menu>
 )
