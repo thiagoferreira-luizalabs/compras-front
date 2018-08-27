@@ -11,37 +11,23 @@ exports[`Routes tests Render routes for authenticated user 1`] = `
       className="header item"
       onClick={[Function]}
     >
-      Compras
-    </div>
-    <div
-      className="item"
-      onClick={[Function]}
-    >
-      About Us
-    </div>
-    <div
-      className="item"
-      onClick={[Function]}
-    >
-      Jobs
-    </div>
-    <div
-      className="item"
-      onClick={[Function]}
-    >
-      Locations
-    </div>
-    <div
-      className="item"
-      onClick={[Function]}
-    >
-      <button
-        className="ui primary button"
+      <a
+        href="/home"
         onClick={[Function]}
-        role="button"
       >
-        Sign up
-      </button>
+        Compras
+      </a>
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <a
+        href="/theme"
+        onClick={[Function]}
+      >
+        Theme
+      </a>
     </div>
     <div
       className="item"
@@ -59,7 +45,6 @@ exports[`Routes tests Render routes for authenticated user 1`] = `
           Logout
         </button>
       </a>
-       :
     </div>
   </div>
   <h1>
