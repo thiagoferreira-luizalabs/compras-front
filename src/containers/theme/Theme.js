@@ -1,9 +1,7 @@
 import React from 'react';
-import { Button } from 'semantic-ui-react'
 
 export default () => (
   <div className="">
-    <Button primary>MUDAAA</Button>
     <div className="ui three column stackable grid">
       <div className="column">
         <h1>Heading 1</h1>
