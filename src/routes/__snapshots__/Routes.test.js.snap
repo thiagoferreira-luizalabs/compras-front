@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Routes tests Render routes for authenticated user 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="ui menu"
+  >
+    <div
+      className="header item"
+      onClick={[Function]}
+    >
+      Compras
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      About Us
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      Jobs
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      Locations
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <button
+        className="ui primary button"
+        onClick={[Function]}
+        role="button"
+      >
+        Sign up
+      </button>
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <a
+        href="/logout"
+        onClick={[Function]}
+      >
+        <button
+          className="ui button"
+          onClick={[Function]}
+          role="button"
+        >
+          Logout
+        </button>
+      </a>
+       :
+    </div>
+  </div>
+  <h1>
+    Welcome to the homepage. You are logged in! Go corintia. 
+  </h1>
+  <p>
+    Version 
+    0.1.0
+  </p>
+</div>
+`;
+
+exports[`Routes tests Render routes for non authenticated user 1`] = `
+<div
+  className="App"
+>
+  <p>
+    Welcome. Insert your credentials to log in.
+    <button
+      onClick={[Function]}
+    >
+      Click here to log in
+    </button>
+  </p>
+  <p>
+    Version 
+    0.1.0
+  </p>
+</div>
+`;

@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders private page with menu 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="ui menu"
+  >
+    <div
+      className="header item"
+      onClick={[Function]}
+    >
+      Compras
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      About Us
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      Jobs
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      Locations
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <button
+        className="ui primary button"
+        onClick={[Function]}
+        role="button"
+      >
+        Sign up
+      </button>
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <a
+        href="/logout"
+        onClick={[Function]}
+      >
+        <button
+          className="ui button"
+          onClick={[Function]}
+          role="button"
+        >
+          Logout
+        </button>
+      </a>
+       :
+    </div>
+  </div>
+  Testing
+  <p>
+    Version 
+    0.1.0
+  </p>
+</div>
+`;
+
+exports[`Renders public page without menu 1`] = `
+<div
+  className="App"
+>
+  Testing
+  <p>
+    Version 
+    0.1.0
+  </p>
+</div>
+`;
