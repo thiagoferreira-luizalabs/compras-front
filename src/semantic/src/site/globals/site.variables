@@ -43,7 +43,7 @@
 --------------------*/
 
 @primaryColor        : @blue;
-@secondaryColor      : @black;
+@secondaryColor      : @yellow;
 
 @lightPrimaryColor   : @lightBlue;
 @lightSecondaryColor : @lightBlack;
