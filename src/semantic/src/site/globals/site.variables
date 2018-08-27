@@ -9,8 +9,8 @@
 @fontName          : 'Arial';
 @fontSmoothing     : antialiased;
 
-@headerFont        : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-@pageFont          : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@headerFont        : @fontName, 'Helvetica Neue', Helvetica, sans-serif;
+@pageFont          : @fontName, 'Helvetica Neue', Helvetica, sans-serif;
 
 @bold              : bold;
 @normal            : normal;
