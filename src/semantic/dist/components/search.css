@@ -131,7 +131,7 @@
 }
 .ui.search > .results .result .price {
   float: right;
-  color: #21BA45;
+  color: #3FCB2A;
 }
 
 /*--------------
@@ -300,7 +300,7 @@
 }
 .ui.search.selection > .icon.input > .remove.icon:hover {
   opacity: 1;
-  color: #DB2828;
+  color: #E25335;
 }
 
 /*--------------

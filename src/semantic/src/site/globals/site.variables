@@ -220,16 +220,16 @@
 --------------------*/
 
 /*---  Colors  ---*/
-@red              : #DB2828;
-@orange           : #F2711C;
-@yellow           : #FBBD08;
+@red              : #E25335;
+@orange           : #FB9600;
+@yellow           : #FFCE00;
 @olive            : #B5CC18;
-@green            : #21BA45;
+@green            : #3FCB2A;
 @teal             : #00B5AD;
-@blue             : #2185D0;
-@violet           : #6435C9;
-@purple           : #A333C8;
-@pink             : #E03997;
+@blue             : #2B7CD7;
+@violet           : #BF2FDC;
+@purple           : #5D33D5;
+@pink             : #DE349E;
 @brown            : #A5673F;
 @grey             : #767676;
 @black            : #1B1C1D;
