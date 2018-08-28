@@ -17,8 +17,8 @@
     "semantic-ui-react": "^0.82.2"
   },
   "scripts": {
-    "build-semantic": "cd src/semantic && gulp build-css build-assets",
-    "watch-semantic": "cd src/semantic && npm run build-semantic && gulp watch",
+    "build-semantic": "cd src/assets/semantic && gulp build-css build-assets",
+    "watch-semantic": "cd src/assets/semantic && npm run build-semantic && gulp watch",
     "build-css": "node-less-chokidar src/index.less",
     "watch-css": "node-less-chokidar src/index.less --watch",
     "start-js": "react-scripts start",
