@@ -185,13 +185,26 @@
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
 .login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 100vh;
   background-color: #2B7CD7;
 }
-.login .box-row {
-  height: 70%;
-}
-.login .box-row .box {
+.login .box {
+  height: 50%;
+  width: 40%;
   background-color: #FFFFFF;
+  margin: 0 auto 0 auto;
+  border-radius: 2px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.2);
+}
+.login .box > .grid {
   height: 100%;
+}
+.login .brand {
+  background-color: #2B7CD7;
+  height: 100%;
+  padding: 0;
 }

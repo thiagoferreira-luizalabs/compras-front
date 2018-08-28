@@ -5,16 +5,19 @@ import Logo from '../../assets/img/magazineluiza.png';
 
 const Login = ({ setAuth }) => {
   return (
-    <div>
-      <Grid className="login"  verticalAlign='middle' centered >
-        <Grid.Row className="box-row"  >
-          <Grid.Column centered width={10} className="box">
-
+    <div className="login">
+      <div className="box">
+        <Grid>
+          <Grid.Column width={5} className="brand">
+            a
           </Grid.Column>
-        </Grid.Row>
-      </Grid>
+          <Grid.Column width={11} className="form">
+            b
+          </Grid.Column>
+        </Grid>
+      </div>
     </div >
   )
-} 
- 
+}
+
 export default Login

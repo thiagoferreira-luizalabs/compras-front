@@ -2,23 +2,32 @@
 
 .login {
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 100vh;
   background-color: @blue;
-  // margin-top: 0 !important;
 
-  
+  .box{
+        height: 50%;
+        width: 40%;
+        background-color: @white;
+        margin: 0 auto 0 auto;
+        border-radius: 2px;
+        background-color: #ffffff;
+        box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.2);
 
-  .box-row{
-        height: 70%;
-        .box{
-          background-color: @white;
-          height: 100%;
-        }
+  }
+  .box > .grid{
+    height: 100%;
   }
 
+  .brand{
+    background-color: @blue;
+    height: 100%;
+    padding: 0;
+  }
 
-
-  
   // .box{
   //     height: 520px;
   //     border-radius: 2px;
