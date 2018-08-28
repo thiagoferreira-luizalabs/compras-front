@@ -10,7 +10,6 @@ class App extends Component {
       <div className="App">
         {isAuthenticated && <PageHeader />}
         {this.props.children}
-        <p>Version {version}</p>
       </div>
     );
   }
