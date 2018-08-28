@@ -184,12 +184,31 @@
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2B7CD7;
+}
 .login {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
   background-color: #2B7CD7;
+}
+.login h1 {
+  margin-bottom: 40px;
+}
+.login .ui.form .field > label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #404040;
+}
+.login .ui.button {
+  font-weight: normal;
 }
 .login .box {
   height: 80%;
@@ -242,4 +261,10 @@
 }
 .login form {
   padding: 50px;
+}
+.login form span {
+  font-size: 14px;
+  color: #8c8c8c;
+  padding: 10px 0;
+  display: block;
 }

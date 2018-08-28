@@ -21,12 +21,14 @@ const Login = ({ setAuth }) => {
                 <Form.Field>
                   <label>Usuário</label>
                   <input placeholder='Digite seu usuário' />
+                  <span>Usuário do magazineluiza</span>
                 </Form.Field>
                 <Form.Field>
                   <label>Senha</label>
                   <input placeholder='Digite sua senha' />
+                  <span>Senha do portal</span>
                 </Form.Field>                
-                <Button type='submit'>Acessar</Button>                
+                <Button color="green" fluid type='submit'>Acessar</Button>                
             </Form>
           </Grid.Column>
         </Grid>
