@@ -8,7 +8,6 @@
  * http://opensource.org/licenses/MIT
  *
  */
-@import url('https://fonts.googleapis.com/css?family=Arial:400,700,400italic,700italic&subset=latin');
 /*!
  * # Semantic UI 2.3.3 - Reset
  * http://github.com/semantic-org/semantic-ui/
@@ -759,6 +758,25 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 /*******************************
          Site Overrides
 *******************************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2B7CD7;
+}
+
+.ui.form .field > label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #404040;
+}
+
+.ui.button {
+  font-weight: normal;
+}
 /*!
  * # Semantic UI 2.3.3 - Button
  * http://github.com/semantic-org/semantic-ui/
