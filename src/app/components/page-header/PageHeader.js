@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 export default () => (
   <Menu>
-    <Menu.Item header>
+    <Menu.Item active>
       <Link to="/home">Compras</Link>
     </Menu.Item>
     <Menu.Item>
