@@ -1,0 +1,87 @@
+@import "../../../assets/semantic/src/site/globals/site.variables"; 
+
+.login {
+
+  h1{
+    margin-bottom: 40px;
+  }
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: @blue;
+
+  .box{          
+        width: 95%;
+        background-color: @white;
+        margin: 0 auto 0 auto;
+        border-radius: 2px;        
+        box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.2);        
+        @media (min-width: @computerBreakpoint){
+          height: 490px;
+          width: 780px; 
+        }
+  }
+
+  .box > .grid{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .brand{
+    background-color: @blue;
+    height: 100%;
+    padding: 0;
+
+    span{
+      color: @white;
+      display: block;
+      font-family: Arial;
+      font-size: 16px;
+      line-height: 1.25;
+      letter-spacing: normal;
+      padding: 0 27px;      
+    }
+
+    .logo{
+      width: 100%;
+      padding: 27px;
+      margin: auto; 
+    }
+
+    .lu{
+      width: 100%;
+      padding: 0px 12px;
+      margin: auto;
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+    }
+  }
+
+  form{
+    padding: 10px;
+
+    @media (min-width: @computerBreakpoint){
+      padding: 40px;
+    }
+
+    span{
+      font-size: 14px;      
+      color: #8c8c8c;
+      padding: 10px 0;
+      display: block;
+    }
+    .forgot-password{
+      text-align: center;
+      color: @blue;
+      padding-top:15px;
+      a{
+        text-decoration: underline;
+      }
+    }
+  }
+
+}

@@ -19,8 +19,8 @@
   "scripts": {
     "build-semantic": "cd src/assets/semantic && gulp build-css build-assets",
     "watch-semantic": "cd src/assets/semantic && npm run build-semantic && gulp watch",
-    "build-css": "node-less-chokidar src/app",
-    "watch-css": "node-less-chokidar src/app --watch",
+    "build-css": "node-less-chokidar src/app --skip-source-map",
+    "watch-css": "node-less-chokidar src/app --skip-source-map --watch",
     "start-js": "react-scripts start",
     "start": "npm run build-css && npm-run-all -p -ncr watch-css start-js",
     "build-js": "react-scripts build",

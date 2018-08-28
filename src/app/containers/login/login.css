@@ -184,3 +184,80 @@
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: #2B7CD7;
+}
+.login h1 {
+  margin-bottom: 40px;
+}
+.login .box {
+  width: 95%;
+  background-color: #FFFFFF;
+  margin: 0 auto 0 auto;
+  border-radius: 2px;
+  box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.2);
+}
+@media (min-width: 992px) {
+  .login .box {
+    height: 490px;
+    width: 780px;
+  }
+}
+.login .box > .grid {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.login .brand {
+  background-color: #2B7CD7;
+  height: 100%;
+  padding: 0;
+}
+.login .brand span {
+  color: #FFFFFF;
+  display: block;
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: normal;
+  padding: 0 27px;
+}
+.login .brand .logo {
+  width: 100%;
+  padding: 27px;
+  margin: auto;
+}
+.login .brand .lu {
+  width: 100%;
+  padding: 0px 12px;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+.login form {
+  padding: 10px;
+}
+@media (min-width: 992px) {
+  .login form {
+    padding: 40px;
+  }
+}
+.login form span {
+  font-size: 14px;
+  color: #8c8c8c;
+  padding: 10px 0;
+  display: block;
+}
+.login form .forgot-password {
+  text-align: center;
+  color: #2B7CD7;
+  padding-top: 15px;
+}
+.login form .forgot-password a {
+  text-decoration: underline;
+}
