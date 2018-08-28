@@ -9,12 +9,16 @@
   background-color: @blue;
 
   .box{
-        height: 50%;
-        width: 40%;
+        height: 80%;        
+        width: 80%;
         background-color: @white;
         margin: 0 auto 0 auto;
         border-radius: 2px;        
         box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.2);        
+        @media (min-width: @computerBreakpoint){
+          height: 50%;        
+          width: 40%;
+        }
 
   }
 
@@ -33,7 +37,7 @@
       color: @white;
       display: block;
       font-family: Arial;
-      font-size: 12px;
+      font-size: 16px;
       font-weight: normal;
       font-style: normal;
       font-stretch: normal;
@@ -56,6 +60,10 @@
       bottom: 0px;
       left: 0;
     }
+  }
+
+  form{
+    
   }
 
 }
