@@ -21,7 +21,7 @@
     "build-css": "node-less-chokidar src/index.less",
     "watch-css": "node-less-chokidar src/index.less --watch",
     "start-js": "react-scripts start",
-    "start": "npm-run-all -p -ncr watch-css start-js",
+    "start": "npm run build-css && npm-run-all -p -ncr watch-css start-js",
     "build-js": "react-scripts build",
     "build": "npm run build-semantic && npm-run-all build-css build-js",
     "eject": "react-scripts eject",
