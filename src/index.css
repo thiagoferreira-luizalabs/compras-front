@@ -211,8 +211,7 @@ h6 {
   font-weight: normal;
 }
 .login .box {
-  height: 80%;
-  width: 80%;
+  width: 95%;
   background-color: #FFFFFF;
   margin: 0 auto 0 auto;
   border-radius: 2px;
@@ -220,8 +219,8 @@ h6 {
 }
 @media (min-width: 992px) {
   .login .box {
-    height: 50%;
-    width: 40%;
+    height: 450px;
+    width: 780px;
   }
 }
 .login .box > .grid {
@@ -239,9 +238,6 @@ h6 {
   display: block;
   font-family: Arial;
   font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 1.25;
   letter-spacing: normal;
   padding: 0 27px;
@@ -260,7 +256,12 @@ h6 {
   left: 0;
 }
 .login form {
-  padding: 50px;
+  padding: 10px;
+}
+@media (min-width: 992px) {
+  .login form {
+    padding: 40px;
+  }
 }
 .login form span {
   font-size: 14px;
