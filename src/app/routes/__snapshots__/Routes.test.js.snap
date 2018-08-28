@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Routes tests Render routes for authenticated user 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="ui menu"
+  >
+    <div
+      className="header item"
+      onClick={[Function]}
+    >
+      <a
+        href="/home"
+        onClick={[Function]}
+      >
+        Compras
+      </a>
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <a
+        href="/theme"
+        onClick={[Function]}
+      >
+        Theme
+      </a>
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <a
+        href="/logout"
+        onClick={[Function]}
+      >
+        <button
+          className="ui button"
+          onClick={[Function]}
+          role="button"
+        >
+          Logout
+        </button>
+      </a>
+    </div>
+  </div>
+  <h1>
+    Welcome to the homepage. You are logged in! Go corintia. 
+  </h1>
+</div>
+`;
+
+exports[`Routes tests Render routes for non authenticated user 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="login"
+  >
+    <div
+      className="box"
+    >
+      <div
+        className="ui grid"
+      >
+        <div
+          className="computer only six wide column brand"
+        >
+          <img
+            className="ui image logo"
+            src="magazineluiza.png"
+          />
+          <span>
+            Acesse sistemas, e administrativos tudo em um só lugar.
+          </span>
+          <img
+            className="ui image lu"
+            src="lu.png"
+          />
+        </div>
+        <div
+          className="ten wide computer sixteen wide mobile column form"
+        >
+          <form
+            className="ui form"
+            onSubmit={[Function]}
+          >
+            <h1>
+              Acesso ao Sistema
+            </h1>
+            <div
+              className="field"
+            >
+              <label>
+                Usuário
+              </label>
+              <input
+                placeholder="Digite seu usuário"
+              />
+              <span>
+                Usuário do magazineluiza
+              </span>
+            </div>
+            <div
+              className="field"
+            >
+              <label>
+                Senha
+              </label>
+              <input
+                placeholder="Digite sua senha"
+              />
+              <span>
+                Senha do portal
+              </span>
+            </div>
+            <button
+              className="ui green fluid button"
+              onClick={[Function]}
+              role="button"
+              type="submit"
+            >
+              Acessar
+            </button>
+            <span
+              className="forgot-password"
+            >
+              Esqueceu sua senha? 
+              <a
+                href="/"
+              >
+                Clique aqui
+              </a>
+            </span>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

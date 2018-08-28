@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Routes tests Render routes for authenticated user 1`] = `
+exports[`Renders private page with menu 1`] = `
 <div
   className="App"
 >
@@ -47,31 +47,14 @@ exports[`Routes tests Render routes for authenticated user 1`] = `
       </a>
     </div>
   </div>
-  <h1>
-    Welcome to the homepage. You are logged in! Go corintia. 
-  </h1>
-  <p>
-    Version 
-    0.1.0
-  </p>
+  Testing
 </div>
 `;
 
-exports[`Routes tests Render routes for non authenticated user 1`] = `
+exports[`Renders public page without menu 1`] = `
 <div
   className="App"
 >
-  <p>
-    Welcome. Insert your credentials to log in.
-    <button
-      onClick={[Function]}
-    >
-      Click here to log in
-    </button>
-  </p>
-  <p>
-    Version 
-    0.1.0
-  </p>
+  Testing
 </div>
 `;

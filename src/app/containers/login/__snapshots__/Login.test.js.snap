@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders without crashing 1`] = `
+<div
+  className="login"
+>
+  <div
+    className="box"
+  >
+    <div
+      className="ui grid"
+    >
+      <div
+        className="computer only six wide column brand"
+      >
+        <img
+          className="ui image logo"
+          src="magazineluiza.png"
+        />
+        <span>
+          Acesse sistemas, e administrativos tudo em um só lugar.
+        </span>
+        <img
+          className="ui image lu"
+          src="lu.png"
+        />
+      </div>
+      <div
+        className="ten wide computer sixteen wide mobile column form"
+      >
+        <form
+          className="ui form"
+          onSubmit={[Function]}
+        >
+          <h1>
+            Acesso ao Sistema
+          </h1>
+          <div
+            className="field"
+          >
+            <label>
+              Usuário
+            </label>
+            <input
+              placeholder="Digite seu usuário"
+            />
+            <span>
+              Usuário do magazineluiza
+            </span>
+          </div>
+          <div
+            className="field"
+          >
+            <label>
+              Senha
+            </label>
+            <input
+              placeholder="Digite sua senha"
+            />
+            <span>
+              Senha do portal
+            </span>
+          </div>
+          <button
+            className="ui green fluid button"
+            onClick={[Function]}
+            role="button"
+            type="submit"
+          >
+            Acessar
+          </button>
+          <span
+            className="forgot-password"
+          >
+            Esqueceu sua senha? 
+            <a
+              href="/"
+            >
+              Clique aqui
+            </a>
+          </span>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

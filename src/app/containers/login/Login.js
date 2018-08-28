@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Image, Button, Form } from 'semantic-ui-react'
-import Lu from '../../assets/img/lu.png';
-import Logo from '../../assets/img/magazineluiza.png';
+import Lu from '../../../assets/img/lu.png';
+import Logo from '../../../assets/img/magazineluiza.png';
 import PropTypes from 'prop-types';
 
 
