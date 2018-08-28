@@ -48,6 +48,7 @@ class Login extends React.Component {
                   <span>Senha do portal</span>
                 </Form.Field>
                 <Button color="green" fluid type='submit' loading={isFetching} onClick={this.authenticate}>Acessar</Button>
+                <span className="forgot-password">Esqueceu sua senha? <a href="/">Clique aqui</a></span>
               </Form>
             </Grid.Column>
           </Grid>

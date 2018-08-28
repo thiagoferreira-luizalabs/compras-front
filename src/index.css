@@ -203,7 +203,7 @@
 }
 @media (min-width: 992px) {
   .login .box {
-    height: 450px;
+    height: 490px;
     width: 780px;
   }
 }
@@ -252,4 +252,12 @@
   color: #8c8c8c;
   padding: 10px 0;
   display: block;
+}
+.login form .forgot-password {
+  text-align: center;
+  color: #2B7CD7;
+  padding-top: 15px;
+}
+.login form .forgot-password a {
+  text-decoration: underline;
 }
