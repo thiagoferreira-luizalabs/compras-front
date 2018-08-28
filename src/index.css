@@ -240,3 +240,6 @@
   bottom: 0px;
   left: 0;
 }
+.login form {
+  padding: 50px;
+}
