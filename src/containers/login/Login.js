@@ -8,10 +8,14 @@ const Login = ({ setAuth }) => {
     <div className="login">
       <div className="box">
         <Grid>
-          <Grid.Column width={5} className="brand">
-            a
+          <Grid.Column width={6} className="brand">
+              <Image src={Logo} className="logo"  />
+              <span>
+                  Acesse sistemas, e administrativos tudo em um só lugar.
+              </span>
+              <Image src={Lu} className="lu" />
           </Grid.Column>
-          <Grid.Column width={11} className="form">
+          <Grid.Column width={10} className="form">
             b
           </Grid.Column>
         </Grid>
