@@ -184,3 +184,9 @@
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
+.navbar .item.active {
+  color: red;
+}
+h1 {
+  color: #E25335;
+}
