@@ -37,5 +37,10 @@
     "react-test-renderer": "^16.4.2",
     "semantic-ui": "^2.3.3",
     "sinon": "^6.1.5"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/app/**/*.{js,jsx}"
+    ]
   }
 }
