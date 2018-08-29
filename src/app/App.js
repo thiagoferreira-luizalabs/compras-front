@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import PageHeader from "./components/page-header/PageHeader"
-import { Button, Header, Icon, Image, Menu, Segment, Sidebar, Dropdown } from 'semantic-ui-react'
+import PageHeader, { ItemsMenu } from "./components/page-header/PageHeader"
+import { Menus } from "./routes/Pages"
+import { Menu, Segment, Sidebar } from 'semantic-ui-react'
+import { Link } from "react-router-dom"
 
 class App extends Component {
 
@@ -16,37 +18,18 @@ class App extends Component {
 
     return (
       <div className="app">
-        {isAuthenticated && <PageHeader onToggleSideBar={this.handleButtonClick} />}
+        {isAuthenticated && <PageHeader menus={Menus} onToggleSideBar={this.handleButtonClick} />}
 
         <Sidebar.Pushable as={Segment}>
-          <Sidebar
-            as={Menu}
-            animation='overlay'
-            icon='labeled'
-            inverted
-            onHide={this.handleSidebarHide}
-            vertical
-            visible={visible}
-            width='thin'
-          >
-            {
-              ["Comercial", "Logística", "Pós Venda", "ERP"]
-                .map((item, idx) =>
-                  (<Dropdown key={idx} item text={item} className={idx === 0 ? "active" : ""} >
-                    <Dropdown.Menu>
-                      <Dropdown.Item>Electronics</Dropdown.Item>
-                      <Dropdown.Item>Automotive</Dropdown.Item>
-                      <Dropdown.Item>Home</Dropdown.Item>
-                    </Dropdown.Menu>
-                  </Dropdown>))
-            }
+          <Sidebar as={Menu} animation='overlay' icon='labeled' inverted onHide={this.handleSidebarHide} vertical visible={visible} width='thin' >
+            {ItemsMenu(Menus)}
+            <Menu.Item as={Link} to="/logout">Logout</Menu.Item>
           </Sidebar>
 
           <Sidebar.Pusher>
             <Segment basic>
               {this.props.children}
             </Segment>
-
           </Sidebar.Pusher>
         </Sidebar.Pushable>
 

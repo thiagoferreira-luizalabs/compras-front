@@ -2,7 +2,7 @@
 
 exports[`Renders private page with menu 1`] = `
 <div
-  className="App"
+  className="app"
 >
   <div>
     <div>
@@ -23,6 +23,29 @@ exports[`Renders private page with menu 1`] = `
       <div
         className="clear"
       />
+    </div>
+    <div
+      className="ui topbar-mobile menu"
+    >
+      <a
+        className="item"
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="bars icon"
+        />
+      </a>
+      <a
+        className="item logo"
+        href="/home"
+        onClick={[Function]}
+      >
+        <img
+          className="ui image"
+          src="magazineluiza.png"
+        />
+      </a>
     </div>
     <div
       className="ui navbar menu"
@@ -63,27 +86,30 @@ exports[`Renders private page with menu 1`] = `
         <div
           className="menu transition"
         >
-          <div
+          <a
             className="item"
+            href="/home"
             onClick={[Function]}
             role="option"
           >
-            Electronics
-          </div>
-          <div
+            Inicio
+          </a>
+          <a
             className="item"
+            href="/home"
             onClick={[Function]}
             role="option"
           >
-            Automotive
-          </div>
-          <div
+            Inicio
+          </a>
+          <a
             className="item"
+            href="/home"
             onClick={[Function]}
             role="option"
           >
-            Home
-          </div>
+            Inicio
+          </a>
         </div>
       </div>
       <div
@@ -112,27 +138,30 @@ exports[`Renders private page with menu 1`] = `
         <div
           className="menu transition"
         >
-          <div
+          <a
             className="item"
+            href="/home"
             onClick={[Function]}
             role="option"
           >
-            Electronics
-          </div>
-          <div
+            Inicio
+          </a>
+          <a
             className="item"
+            href="/home"
             onClick={[Function]}
             role="option"
           >
-            Automotive
-          </div>
-          <div
+            Inicio
+          </a>
+          <a
             className="item"
+            href="/home"
             onClick={[Function]}
             role="option"
           >
-            Home
-          </div>
+            Inicio
+          </a>
         </div>
       </div>
       <div
@@ -151,7 +180,7 @@ exports[`Renders private page with menu 1`] = `
           className="text"
           role="alert"
         >
-          Pós Venda
+          Tema
         </div>
         <i
           aria-hidden="true"
@@ -161,85 +190,16 @@ exports[`Renders private page with menu 1`] = `
         <div
           className="menu transition"
         >
-          <div
+          <a
             className="item"
+            href="/theme"
             onClick={[Function]}
             role="option"
           >
-            Electronics
-          </div>
-          <div
-            className="item"
-            onClick={[Function]}
-            role="option"
-          >
-            Automotive
-          </div>
-          <div
-            className="item"
-            onClick={[Function]}
-            role="option"
-          >
-            Home
-          </div>
+            Tema
+          </a>
         </div>
       </div>
-      <div
-        aria-expanded={false}
-        className="ui item dropdown"
-        onBlur={[Function]}
-        onChange={[Function]}
-        onClick={[Function]}
-        onFocus={[Function]}
-        onMouseDown={[Function]}
-        role="listbox"
-        tabIndex={0}
-      >
-        <div
-          aria-live="polite"
-          className="text"
-          role="alert"
-        >
-          ERP
-        </div>
-        <i
-          aria-hidden="true"
-          className="dropdown icon"
-          onClick={[Function]}
-        />
-        <div
-          className="menu transition"
-        >
-          <div
-            className="item"
-            onClick={[Function]}
-            role="option"
-          >
-            Electronics
-          </div>
-          <div
-            className="item"
-            onClick={[Function]}
-            role="option"
-          >
-            Automotive
-          </div>
-          <div
-            className="item"
-            onClick={[Function]}
-            role="option"
-          >
-            Home
-          </div>
-        </div>
-      </div>
-      <a
-        className="item"
-        href="/theme"
-        onClick={[Function]}
-      >
-        Tema
-      </a>
       <div
         className="right menu logout"
       >
@@ -273,6 +233,7 @@ exports[`Renders private page with menu 1`] = `
               className="item"
               href="/logout"
               onClick={[Function]}
+              role="option"
             >
               Logout
             </a>
@@ -281,14 +242,340 @@ exports[`Renders private page with menu 1`] = `
       </div>
     </div>
   </div>
-  Testing
+  <div
+    className="ui segment pushable"
+  >
+    <div
+      className="ui inverted vertical labeled icon ui overlay left thin sidebar menu"
+    >
+      <div
+        aria-expanded={false}
+        className="ui item dropdown active"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseDown={[Function]}
+        role="listbox"
+        tabIndex={0}
+      >
+        <div
+          aria-live="polite"
+          className="text"
+          role="alert"
+        >
+          Comercial
+        </div>
+        <i
+          aria-hidden="true"
+          className="dropdown icon"
+          onClick={[Function]}
+        />
+        <div
+          className="menu transition"
+        >
+          <a
+            className="item"
+            href="/home"
+            onClick={[Function]}
+            role="option"
+          >
+            Inicio
+          </a>
+          <a
+            className="item"
+            href="/home"
+            onClick={[Function]}
+            role="option"
+          >
+            Inicio
+          </a>
+          <a
+            className="item"
+            href="/home"
+            onClick={[Function]}
+            role="option"
+          >
+            Inicio
+          </a>
+        </div>
+      </div>
+      <div
+        aria-expanded={false}
+        className="ui item dropdown"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseDown={[Function]}
+        role="listbox"
+        tabIndex={0}
+      >
+        <div
+          aria-live="polite"
+          className="text"
+          role="alert"
+        >
+          Logística
+        </div>
+        <i
+          aria-hidden="true"
+          className="dropdown icon"
+          onClick={[Function]}
+        />
+        <div
+          className="menu transition"
+        >
+          <a
+            className="item"
+            href="/home"
+            onClick={[Function]}
+            role="option"
+          >
+            Inicio
+          </a>
+          <a
+            className="item"
+            href="/home"
+            onClick={[Function]}
+            role="option"
+          >
+            Inicio
+          </a>
+          <a
+            className="item"
+            href="/home"
+            onClick={[Function]}
+            role="option"
+          >
+            Inicio
+          </a>
+        </div>
+      </div>
+      <div
+        aria-expanded={false}
+        className="ui item dropdown"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseDown={[Function]}
+        role="listbox"
+        tabIndex={0}
+      >
+        <div
+          aria-live="polite"
+          className="text"
+          role="alert"
+        >
+          Tema
+        </div>
+        <i
+          aria-hidden="true"
+          className="dropdown icon"
+          onClick={[Function]}
+        />
+        <div
+          className="menu transition"
+        >
+          <a
+            className="item"
+            href="/theme"
+            onClick={[Function]}
+            role="option"
+          >
+            Tema
+          </a>
+        </div>
+      </div>
+      <a
+        className="item"
+        href="/logout"
+        onClick={[Function]}
+      >
+        Logout
+      </a>
+    </div>
+    <div
+      className="pusher"
+    >
+      <div
+        className="ui basic segment"
+      >
+        Testing
+      </div>
+    </div>
+  </div>
 </div>
 `;
 
 exports[`Renders public page without menu 1`] = `
 <div
-  className="App"
+  className="app"
 >
-  Testing
+  <div
+    className="ui segment pushable"
+  >
+    <div
+      className="ui inverted vertical labeled icon ui overlay left thin sidebar menu"
+    >
+      <div
+        aria-expanded={false}
+        className="ui item dropdown active"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseDown={[Function]}
+        role="listbox"
+        tabIndex={0}
+      >
+        <div
+          aria-live="polite"
+          className="text"
+          role="alert"
+        >
+          Comercial
+        </div>
+        <i
+          aria-hidden="true"
+          className="dropdown icon"
+          onClick={[Function]}
+        />
+        <div
+          className="menu transition"
+        >
+          <a
+            className="item"
+            href="/home"
+            onClick={[Function]}
+            role="option"
+          >
+            Inicio
+          </a>
+          <a
+            className="item"
+            href="/home"
+            onClick={[Function]}
+            role="option"
+          >
+            Inicio
+          </a>
+          <a
+            className="item"
+            href="/home"
+            onClick={[Function]}
+            role="option"
+          >
+            Inicio
+          </a>
+        </div>
+      </div>
+      <div
+        aria-expanded={false}
+        className="ui item dropdown"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseDown={[Function]}
+        role="listbox"
+        tabIndex={0}
+      >
+        <div
+          aria-live="polite"
+          className="text"
+          role="alert"
+        >
+          Logística
+        </div>
+        <i
+          aria-hidden="true"
+          className="dropdown icon"
+          onClick={[Function]}
+        />
+        <div
+          className="menu transition"
+        >
+          <a
+            className="item"
+            href="/home"
+            onClick={[Function]}
+            role="option"
+          >
+            Inicio
+          </a>
+          <a
+            className="item"
+            href="/home"
+            onClick={[Function]}
+            role="option"
+          >
+            Inicio
+          </a>
+          <a
+            className="item"
+            href="/home"
+            onClick={[Function]}
+            role="option"
+          >
+            Inicio
+          </a>
+        </div>
+      </div>
+      <div
+        aria-expanded={false}
+        className="ui item dropdown"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseDown={[Function]}
+        role="listbox"
+        tabIndex={0}
+      >
+        <div
+          aria-live="polite"
+          className="text"
+          role="alert"
+        >
+          Tema
+        </div>
+        <i
+          aria-hidden="true"
+          className="dropdown icon"
+          onClick={[Function]}
+        />
+        <div
+          className="menu transition"
+        >
+          <a
+            className="item"
+            href="/theme"
+            onClick={[Function]}
+            role="option"
+          >
+            Tema
+          </a>
+        </div>
+      </div>
+      <a
+        className="item"
+        href="/logout"
+        onClick={[Function]}
+      >
+        Logout
+      </a>
+    </div>
+    <div
+      className="pusher"
+    >
+      <div
+        className="ui basic segment"
+      >
+        Testing
+      </div>
+    </div>
+  </div>
 </div>
 `;

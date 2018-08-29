@@ -2,7 +2,7 @@
 
 exports[`Routes tests Render routes for authenticated user 1`] = `
 <div
-  className="App"
+  className="app"
 >
   <div>
     <div>
@@ -23,6 +23,29 @@ exports[`Routes tests Render routes for authenticated user 1`] = `
       <div
         className="clear"
       />
+    </div>
+    <div
+      className="ui topbar-mobile menu"
+    >
+      <a
+        className="item"
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="bars icon"
+        />
+      </a>
+      <a
+        className="item logo"
+        href="/home"
+        onClick={[Function]}
+      >
+        <img
+          className="ui image"
+          src="magazineluiza.png"
+        />
+      </a>
     </div>
     <div
       className="ui navbar menu"
@@ -63,27 +86,30 @@ exports[`Routes tests Render routes for authenticated user 1`] = `
         <div
           className="menu transition"
         >
-          <div
+          <a
             className="item"
+            href="/home"
             onClick={[Function]}
             role="option"
           >
-            Electronics
-          </div>
-          <div
+            Inicio
+          </a>
+          <a
             className="item"
+            href="/home"
             onClick={[Function]}
             role="option"
           >
-            Automotive
-          </div>
-          <div
+            Inicio
+          </a>
+          <a
             className="item"
+            href="/home"
             onClick={[Function]}
             role="option"
           >
-            Home
-          </div>
+            Inicio
+          </a>
         </div>
       </div>
       <div
@@ -112,27 +138,30 @@ exports[`Routes tests Render routes for authenticated user 1`] = `
         <div
           className="menu transition"
         >
-          <div
+          <a
             className="item"
+            href="/home"
             onClick={[Function]}
             role="option"
           >
-            Electronics
-          </div>
-          <div
+            Inicio
+          </a>
+          <a
             className="item"
+            href="/home"
             onClick={[Function]}
             role="option"
           >
-            Automotive
-          </div>
-          <div
+            Inicio
+          </a>
+          <a
             className="item"
+            href="/home"
             onClick={[Function]}
             role="option"
           >
-            Home
-          </div>
+            Inicio
+          </a>
         </div>
       </div>
       <div
@@ -151,7 +180,7 @@ exports[`Routes tests Render routes for authenticated user 1`] = `
           className="text"
           role="alert"
         >
-          Pós Venda
+          Tema
         </div>
         <i
           aria-hidden="true"
@@ -161,85 +190,16 @@ exports[`Routes tests Render routes for authenticated user 1`] = `
         <div
           className="menu transition"
         >
-          <div
+          <a
             className="item"
+            href="/theme"
             onClick={[Function]}
             role="option"
           >
-            Electronics
-          </div>
-          <div
-            className="item"
-            onClick={[Function]}
-            role="option"
-          >
-            Automotive
-          </div>
-          <div
-            className="item"
-            onClick={[Function]}
-            role="option"
-          >
-            Home
-          </div>
+            Tema
+          </a>
         </div>
       </div>
-      <div
-        aria-expanded={false}
-        className="ui item dropdown"
-        onBlur={[Function]}
-        onChange={[Function]}
-        onClick={[Function]}
-        onFocus={[Function]}
-        onMouseDown={[Function]}
-        role="listbox"
-        tabIndex={0}
-      >
-        <div
-          aria-live="polite"
-          className="text"
-          role="alert"
-        >
-          ERP
-        </div>
-        <i
-          aria-hidden="true"
-          className="dropdown icon"
-          onClick={[Function]}
-        />
-        <div
-          className="menu transition"
-        >
-          <div
-            className="item"
-            onClick={[Function]}
-            role="option"
-          >
-            Electronics
-          </div>
-          <div
-            className="item"
-            onClick={[Function]}
-            role="option"
-          >
-            Automotive
-          </div>
-          <div
-            className="item"
-            onClick={[Function]}
-            role="option"
-          >
-            Home
-          </div>
-        </div>
-      </div>
-      <a
-        className="item"
-        href="/theme"
-        onClick={[Function]}
-      >
-        Tema
-      </a>
       <div
         className="right menu logout"
       >
@@ -273,6 +233,7 @@ exports[`Routes tests Render routes for authenticated user 1`] = `
               className="item"
               href="/logout"
               onClick={[Function]}
+              role="option"
             >
               Logout
             </a>
@@ -282,17 +243,180 @@ exports[`Routes tests Render routes for authenticated user 1`] = `
     </div>
   </div>
   <div
-    className="ui container"
+    className="ui segment pushable"
   >
     <div
-      className="page-title"
+      className="ui inverted vertical labeled icon ui overlay left thin sidebar menu"
     >
-      <h1>
-        Olá, Usuário
-      </h1>
-      <h2>
-        Bem vindo à plataforma comercial;
-      </h2>
+      <div
+        aria-expanded={false}
+        className="ui item dropdown active"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseDown={[Function]}
+        role="listbox"
+        tabIndex={0}
+      >
+        <div
+          aria-live="polite"
+          className="text"
+          role="alert"
+        >
+          Comercial
+        </div>
+        <i
+          aria-hidden="true"
+          className="dropdown icon"
+          onClick={[Function]}
+        />
+        <div
+          className="menu transition"
+        >
+          <a
+            className="item"
+            href="/home"
+            onClick={[Function]}
+            role="option"
+          >
+            Inicio
+          </a>
+          <a
+            className="item"
+            href="/home"
+            onClick={[Function]}
+            role="option"
+          >
+            Inicio
+          </a>
+          <a
+            className="item"
+            href="/home"
+            onClick={[Function]}
+            role="option"
+          >
+            Inicio
+          </a>
+        </div>
+      </div>
+      <div
+        aria-expanded={false}
+        className="ui item dropdown"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseDown={[Function]}
+        role="listbox"
+        tabIndex={0}
+      >
+        <div
+          aria-live="polite"
+          className="text"
+          role="alert"
+        >
+          Logística
+        </div>
+        <i
+          aria-hidden="true"
+          className="dropdown icon"
+          onClick={[Function]}
+        />
+        <div
+          className="menu transition"
+        >
+          <a
+            className="item"
+            href="/home"
+            onClick={[Function]}
+            role="option"
+          >
+            Inicio
+          </a>
+          <a
+            className="item"
+            href="/home"
+            onClick={[Function]}
+            role="option"
+          >
+            Inicio
+          </a>
+          <a
+            className="item"
+            href="/home"
+            onClick={[Function]}
+            role="option"
+          >
+            Inicio
+          </a>
+        </div>
+      </div>
+      <div
+        aria-expanded={false}
+        className="ui item dropdown"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseDown={[Function]}
+        role="listbox"
+        tabIndex={0}
+      >
+        <div
+          aria-live="polite"
+          className="text"
+          role="alert"
+        >
+          Tema
+        </div>
+        <i
+          aria-hidden="true"
+          className="dropdown icon"
+          onClick={[Function]}
+        />
+        <div
+          className="menu transition"
+        >
+          <a
+            className="item"
+            href="/theme"
+            onClick={[Function]}
+            role="option"
+          >
+            Tema
+          </a>
+        </div>
+      </div>
+      <a
+        className="item"
+        href="/logout"
+        onClick={[Function]}
+      >
+        Logout
+      </a>
+    </div>
+    <div
+      className="pusher"
+    >
+      <div
+        className="ui basic segment"
+      >
+        <div
+          className="ui container"
+        >
+          <div
+            className="page-title"
+          >
+            <h1>
+              Olá, Usuário
+            </h1>
+            <h2>
+              Bem vindo à plataforma comercial;
+            </h2>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -300,87 +424,250 @@ exports[`Routes tests Render routes for authenticated user 1`] = `
 
 exports[`Routes tests Render routes for non authenticated user 1`] = `
 <div
-  className="App"
+  className="app"
 >
   <div
-    className="login"
+    className="ui segment pushable"
   >
     <div
-      className="box"
+      className="ui inverted vertical labeled icon ui overlay left thin sidebar menu"
     >
       <div
-        className="ui grid"
+        aria-expanded={false}
+        className="ui item dropdown active"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseDown={[Function]}
+        role="listbox"
+        tabIndex={0}
       >
         <div
-          className="computer only six wide column brand"
+          aria-live="polite"
+          className="text"
+          role="alert"
         >
-          <img
-            className="ui image logo"
-            src="magazineluiza.png"
-          />
-          <span>
-            Acesse sistemas, e administrativos tudo em um só lugar.
-          </span>
-          <img
-            className="ui image lu"
-            src="lu.png"
-          />
+          Comercial
         </div>
+        <i
+          aria-hidden="true"
+          className="dropdown icon"
+          onClick={[Function]}
+        />
         <div
-          className="ten wide computer sixteen wide mobile column form"
+          className="menu transition"
         >
-          <form
-            className="ui form"
-            onSubmit={[Function]}
+          <a
+            className="item"
+            href="/home"
+            onClick={[Function]}
+            role="option"
           >
-            <h1>
-              Acesso ao Sistema
-            </h1>
+            Inicio
+          </a>
+          <a
+            className="item"
+            href="/home"
+            onClick={[Function]}
+            role="option"
+          >
+            Inicio
+          </a>
+          <a
+            className="item"
+            href="/home"
+            onClick={[Function]}
+            role="option"
+          >
+            Inicio
+          </a>
+        </div>
+      </div>
+      <div
+        aria-expanded={false}
+        className="ui item dropdown"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseDown={[Function]}
+        role="listbox"
+        tabIndex={0}
+      >
+        <div
+          aria-live="polite"
+          className="text"
+          role="alert"
+        >
+          Logística
+        </div>
+        <i
+          aria-hidden="true"
+          className="dropdown icon"
+          onClick={[Function]}
+        />
+        <div
+          className="menu transition"
+        >
+          <a
+            className="item"
+            href="/home"
+            onClick={[Function]}
+            role="option"
+          >
+            Inicio
+          </a>
+          <a
+            className="item"
+            href="/home"
+            onClick={[Function]}
+            role="option"
+          >
+            Inicio
+          </a>
+          <a
+            className="item"
+            href="/home"
+            onClick={[Function]}
+            role="option"
+          >
+            Inicio
+          </a>
+        </div>
+      </div>
+      <div
+        aria-expanded={false}
+        className="ui item dropdown"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseDown={[Function]}
+        role="listbox"
+        tabIndex={0}
+      >
+        <div
+          aria-live="polite"
+          className="text"
+          role="alert"
+        >
+          Tema
+        </div>
+        <i
+          aria-hidden="true"
+          className="dropdown icon"
+          onClick={[Function]}
+        />
+        <div
+          className="menu transition"
+        >
+          <a
+            className="item"
+            href="/theme"
+            onClick={[Function]}
+            role="option"
+          >
+            Tema
+          </a>
+        </div>
+      </div>
+      <a
+        className="item"
+        href="/logout"
+        onClick={[Function]}
+      >
+        Logout
+      </a>
+    </div>
+    <div
+      className="pusher"
+    >
+      <div
+        className="ui basic segment"
+      >
+        <div
+          className="login"
+        >
+          <div
+            className="box"
+          >
             <div
-              className="field"
+              className="ui grid"
             >
-              <label>
-                Usuário
-              </label>
-              <input
-                placeholder="Digite seu usuário"
-              />
-              <span>
-                Usuário do magazineluiza
-              </span>
-            </div>
-            <div
-              className="field"
-            >
-              <label>
-                Senha
-              </label>
-              <input
-                placeholder="Digite sua senha"
-              />
-              <span>
-                Senha do portal
-              </span>
-            </div>
-            <button
-              className="ui green fluid button"
-              onClick={[Function]}
-              role="button"
-              type="submit"
-            >
-              Acessar
-            </button>
-            <span
-              className="forgot-password"
-            >
-              Esqueceu sua senha? 
-              <a
-                href="/"
+              <div
+                className="computer only six wide column brand"
               >
-                Clique aqui
-              </a>
-            </span>
-          </form>
+                <img
+                  className="ui image logo"
+                  src="magazineluiza.png"
+                />
+                <span>
+                  Acesse sistemas, e administrativos tudo em um só lugar.
+                </span>
+                <img
+                  className="ui image lu"
+                  src="lu.png"
+                />
+              </div>
+              <div
+                className="ten wide computer sixteen wide mobile column form"
+              >
+                <form
+                  className="ui form"
+                  onSubmit={[Function]}
+                >
+                  <h1>
+                    Acesso ao Sistema
+                  </h1>
+                  <div
+                    className="field"
+                  >
+                    <label>
+                      Usuário
+                    </label>
+                    <input
+                      placeholder="Digite seu usuário"
+                    />
+                    <span>
+                      Usuário do magazineluiza
+                    </span>
+                  </div>
+                  <div
+                    className="field"
+                  >
+                    <label>
+                      Senha
+                    </label>
+                    <input
+                      placeholder="Digite sua senha"
+                    />
+                    <span>
+                      Senha do portal
+                    </span>
+                  </div>
+                  <button
+                    className="ui green fluid button"
+                    onClick={[Function]}
+                    role="button"
+                    type="submit"
+                  >
+                    Acessar
+                  </button>
+                  <span
+                    className="forgot-password"
+                  >
+                    Esqueceu sua senha? 
+                    <a
+                      href="/"
+                    >
+                      Clique aqui
+                    </a>
+                  </span>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

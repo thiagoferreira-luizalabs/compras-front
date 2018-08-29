@@ -208,10 +208,3 @@
     display: none;
   }
 }
-.navbar-mobile.ui.menu.vertical {
-  width: 100%;
-  background-color: #2B7CD7;
-}
-.navbar-mobile.ui.menu.vertical .item {
-  text-align: center;
-}
