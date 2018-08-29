@@ -3,7 +3,11 @@
 .item.active{
   border-bottom: 4px solid @yellow
 }
-.navbar{
+.navbar.menu.ui{
+  @media (max-width: @computerBreakpoint){
+    display: none;
+  }
+
   .right.menu.logout{
     margin-right:30px;
   }
@@ -12,3 +16,21 @@
     margin: 0 40px 0 40px;
   }
 } 
+
+.topbar-mobile.ui.menu{   
+  .logo img{
+    height: 20px;   
+    margin: auto;
+  }
+  @media (min-width: @computerBreakpoint){
+    display: none;
+  }
+}
+
+.navbar-mobile.ui.menu.vertical{
+  width: 100%;
+  background-color: @blue;
+  .item{
+    text-align: center;
+  }
+}

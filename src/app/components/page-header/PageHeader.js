@@ -1,18 +1,23 @@
 import React from 'react';
-import { Menu, Dropdown, Image } from 'semantic-ui-react'
+import { Menu, Dropdown, Image, Icon } from 'semantic-ui-react'
 import { Link } from "react-router-dom"
 import Strips from "../strips/Strips"
 import Logo from "../../../assets/img/magazineluiza.png"
 import "./page-header.css"
 
-
-export default () => (
-  <div >
+const PageHeader = ({ onToggleSideBar }) => (
+  <div>
     <Strips />
+
+    <Menu className="topbar-mobile" >
+      <Menu.Item onClick={onToggleSideBar}><Icon name="bars" /></Menu.Item>
+      <Menu.Item className="logo"><Image src={Logo} /></Menu.Item>
+    </Menu>
+
     <Menu className="navbar">
-      <Link className="item" to="/">
+      <Menu.Item as={Link} to="/">
         <Image src={Logo} className="logo" />
-      </Link>
+      </Menu.Item>
       {
         ["Comercial", "Logística", "Pós Venda", "ERP"]
           .map((item, idx) =>
@@ -25,12 +30,12 @@ export default () => (
             </Dropdown>))
       }
 
-      <Link className="item" to="/theme">Tema</Link>
+      <Menu.Item as={Link} to="/theme">Tema</Menu.Item>
 
       <Menu.Menu position='right' className="logout">
         <Dropdown item text='Olá, CBT_SILVA'>
           <Dropdown.Menu>
-            <Link className="item" to="/logout">Logout</Link>
+            <Dropdown.Item as={Link} to="/logout">Logout</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
       </Menu.Menu>
@@ -38,3 +43,5 @@ export default () => (
     </Menu>
   </div >
 )
+
+export default PageHeader

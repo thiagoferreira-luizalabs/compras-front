@@ -187,10 +187,31 @@
 .item.active {
   border-bottom: 4px solid #FFCE00;
 }
-.navbar .right.menu.logout {
+@media (max-width: 992px) {
+  .navbar.menu.ui {
+    display: none;
+  }
+}
+.navbar.menu.ui .right.menu.logout {
   margin-right: 30px;
 }
-.navbar .logo {
+.navbar.menu.ui .logo {
   height: 30px;
   margin: 0 40px 0 40px;
+}
+.topbar-mobile.ui.menu .logo img {
+  height: 20px;
+  margin: auto;
+}
+@media (min-width: 992px) {
+  .topbar-mobile.ui.menu {
+    display: none;
+  }
+}
+.navbar-mobile.ui.menu.vertical {
+  width: 100%;
+  background-color: #2B7CD7;
+}
+.navbar-mobile.ui.menu.vertical .item {
+  text-align: center;
 }
