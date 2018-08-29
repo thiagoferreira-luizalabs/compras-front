@@ -1,45 +1,38 @@
 import React from 'react';
-import { Menu, Button, Dropdown } from 'semantic-ui-react'
+import { Menu, Dropdown, Image } from 'semantic-ui-react'
 import { Link } from "react-router-dom"
-
-const Strips = () => (
-  <div>
-    <div className="strips">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
-    <div className="clear"></div>
-  </div>
-)
-
+import Strips from "../strips/Strips"
+import Logo from "../../../assets/img/magazineluiza.png"
 
 export default () => (
-  <div>
+  <div >
     <Strips />
     <Menu className="navbar">
-      <Link className="item active" to="/home">Compras</Link>
-      <Link className="item" to="/theme">Theme</Link>
-      <Menu.Item>
-        Teste
-    </Menu.Item>
-      <Dropdown item text='Categories'>
-        <Dropdown.Menu>
-          <Dropdown.Item>Electronics</Dropdown.Item>
-          <Dropdown.Item>Automotive</Dropdown.Item>
-          <Dropdown.Item>Home</Dropdown.Item>
-        </Dropdown.Menu>
-      </Dropdown>
-      <Menu.Item>
-        <Link to="/logout"><Button>Logout</Button></Link>
-      </Menu.Item>
+      <Link className="item" to="/">
+        <Image src={Logo} className="logo" />
+      </Link>
+      {
+        ["Comercial", "Logística", "Pós Venda", "ERP"]
+          .map((item, idx) =>
+            (<Dropdown key={idx} item text={item} className={idx === 0 ? "active" : ""}>
+              <Dropdown.Menu>
+                <Dropdown.Item>Electronics</Dropdown.Item>
+                <Dropdown.Item>Automotive</Dropdown.Item>
+                <Dropdown.Item>Home</Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown>))
+      }
+
+      <Link className="item" to="/theme">Tema</Link>
+
+      <Menu.Menu position='right' className="logout">
+        <Dropdown item text='Olá, CBT_SILVA'>
+          <Dropdown.Menu>
+            <Link className="item" to="/logout">Logout</Link>
+          </Dropdown.Menu>
+        </Dropdown>
+      </Menu.Menu>
+
     </Menu>
-  </div>
+  </div >
 )

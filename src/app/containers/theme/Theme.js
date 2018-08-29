@@ -103,19 +103,19 @@ export default () => (
 
         <div className="ui divider"></div>
 
-        <div className="ui animated button" tabindex="0">
+        <div className="ui animated button" >
           <div className="visible content">Horizontal</div>
           <div className="hidden content">
             Hidden
       </div>
         </div>
-        <div className="ui vertical animated button" tabindex="0">
+        <div className="ui vertical animated button" >
           <div className="visible content">Vertical</div>
           <div className="hidden content">
             Hidden
       </div>
         </div>
-        <div className="ui animated fade button" tabindex="0">
+        <div className="ui animated fade button" >
           <div className="visible content">Fade In</div>
           <div className="hidden content">
             Hidden

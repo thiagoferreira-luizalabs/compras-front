@@ -1,47 +1,281 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Renders page header 1`] = `
-<div
-  className="ui menu"
->
-  <div
-    className="header item"
-    onClick={[Function]}
-  >
-    <a
-      href="/home"
-      onClick={[Function]}
+<div>
+  <div>
+    <div
+      className="strips"
     >
-      Compras
-    </a>
+      <div />
+      <div />
+      <div />
+      <div />
+      <div />
+      <div />
+      <div />
+      <div />
+      <div />
+      <div />
+    </div>
+    <div
+      className="clear"
+    />
   </div>
   <div
-    className="item"
-    onClick={[Function]}
+    className="ui navbar menu"
   >
     <a
+      className="item"
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        className="ui image logo"
+        src="magazineluiza.png"
+      />
+    </a>
+    <div
+      aria-expanded={false}
+      className="ui item dropdown active"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      role="listbox"
+      tabIndex={0}
+    >
+      <div
+        aria-live="polite"
+        className="text"
+        role="alert"
+      >
+        Comercial
+      </div>
+      <i
+        aria-hidden="true"
+        className="dropdown icon"
+        onClick={[Function]}
+      />
+      <div
+        className="menu transition"
+      >
+        <div
+          className="item"
+          onClick={[Function]}
+          role="option"
+        >
+          Electronics
+        </div>
+        <div
+          className="item"
+          onClick={[Function]}
+          role="option"
+        >
+          Automotive
+        </div>
+        <div
+          className="item"
+          onClick={[Function]}
+          role="option"
+        >
+          Home
+        </div>
+      </div>
+    </div>
+    <div
+      aria-expanded={false}
+      className="ui item dropdown"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      role="listbox"
+      tabIndex={0}
+    >
+      <div
+        aria-live="polite"
+        className="text"
+        role="alert"
+      >
+        Logística
+      </div>
+      <i
+        aria-hidden="true"
+        className="dropdown icon"
+        onClick={[Function]}
+      />
+      <div
+        className="menu transition"
+      >
+        <div
+          className="item"
+          onClick={[Function]}
+          role="option"
+        >
+          Electronics
+        </div>
+        <div
+          className="item"
+          onClick={[Function]}
+          role="option"
+        >
+          Automotive
+        </div>
+        <div
+          className="item"
+          onClick={[Function]}
+          role="option"
+        >
+          Home
+        </div>
+      </div>
+    </div>
+    <div
+      aria-expanded={false}
+      className="ui item dropdown"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      role="listbox"
+      tabIndex={0}
+    >
+      <div
+        aria-live="polite"
+        className="text"
+        role="alert"
+      >
+        Pós Venda
+      </div>
+      <i
+        aria-hidden="true"
+        className="dropdown icon"
+        onClick={[Function]}
+      />
+      <div
+        className="menu transition"
+      >
+        <div
+          className="item"
+          onClick={[Function]}
+          role="option"
+        >
+          Electronics
+        </div>
+        <div
+          className="item"
+          onClick={[Function]}
+          role="option"
+        >
+          Automotive
+        </div>
+        <div
+          className="item"
+          onClick={[Function]}
+          role="option"
+        >
+          Home
+        </div>
+      </div>
+    </div>
+    <div
+      aria-expanded={false}
+      className="ui item dropdown"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      role="listbox"
+      tabIndex={0}
+    >
+      <div
+        aria-live="polite"
+        className="text"
+        role="alert"
+      >
+        ERP
+      </div>
+      <i
+        aria-hidden="true"
+        className="dropdown icon"
+        onClick={[Function]}
+      />
+      <div
+        className="menu transition"
+      >
+        <div
+          className="item"
+          onClick={[Function]}
+          role="option"
+        >
+          Electronics
+        </div>
+        <div
+          className="item"
+          onClick={[Function]}
+          role="option"
+        >
+          Automotive
+        </div>
+        <div
+          className="item"
+          onClick={[Function]}
+          role="option"
+        >
+          Home
+        </div>
+      </div>
+    </div>
+    <a
+      className="item"
       href="/theme"
       onClick={[Function]}
     >
-      Theme
+      Tema
     </a>
-  </div>
-  <div
-    className="item"
-    onClick={[Function]}
-  >
-    <a
-      href="/logout"
-      onClick={[Function]}
+    <div
+      className="right menu logout"
     >
-      <button
-        className="ui button"
+      <div
+        aria-expanded={false}
+        className="ui item dropdown"
+        onBlur={[Function]}
+        onChange={[Function]}
         onClick={[Function]}
-        role="button"
+        onFocus={[Function]}
+        onMouseDown={[Function]}
+        role="listbox"
+        tabIndex={0}
       >
-        Logout
-      </button>
-    </a>
+        <div
+          aria-live="polite"
+          className="text"
+          role="alert"
+        >
+          Olá, CBT_SILVA
+        </div>
+        <i
+          aria-hidden="true"
+          className="dropdown icon"
+          onClick={[Function]}
+        />
+        <div
+          className="menu transition"
+        >
+          <a
+            className="item"
+            href="/logout"
+            onClick={[Function]}
+          >
+            Logout
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;
