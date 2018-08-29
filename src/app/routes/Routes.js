@@ -6,7 +6,7 @@ import AuthService from "../services/AuthService"
 // Pages
 import Login from "../containers/login/Login"
 import Theme from "../containers/theme/Theme"
-const Home = () => (<h1>Welcome to the homepage. You are logged in! Go corintia. </h1>)
+import Home from "../containers/home/Home"
 
 class Routes extends Component {
 
