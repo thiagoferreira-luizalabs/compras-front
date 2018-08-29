@@ -6,6 +6,7 @@
 - JSX
 - Webpack
 - Semantic UI
+- Less
 
 ## Running Locally
 Install the dependencies and run:
