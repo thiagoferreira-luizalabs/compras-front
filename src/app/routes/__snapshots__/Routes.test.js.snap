@@ -281,9 +281,20 @@ exports[`Routes tests Render routes for authenticated user 1`] = `
       </div>
     </div>
   </div>
-  <h1>
-    Welcome to the homepage. You are logged in! Go corintia. 
-  </h1>
+  <div
+    className="ui container"
+  >
+    <div
+      className="page-title"
+    >
+      <h1>
+        Olá, Usuário
+      </h1>
+      <h2>
+        Bem vindo à plataforma comercial;
+      </h2>
+    </div>
+  </div>
 </div>
 `;
 
