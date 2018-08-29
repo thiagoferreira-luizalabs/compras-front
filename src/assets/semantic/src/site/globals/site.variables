@@ -227,12 +227,14 @@
 @grey             : #767676;
 @black            : #1B1C1D;
 
+@cyan: #33C3DD;
+
 /*---  Light Colors  ---*/
 @lightRed         : #FF695E;
 @lightOrange      : #FF851B;
 @lightYellow      : #FFE21F;
 @lightOlive       : #D9E778;
-@lightGreen       : #2ECC40;
+@lightGreen       : #32D9A1;
 @lightTeal        : #6DFFFF;
 @lightBlue        : #54C8FF;
 @lightViolet      : #A291FB;

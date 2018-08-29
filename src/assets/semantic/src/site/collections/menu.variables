@@ -7,7 +7,7 @@
 --------------------*/
 
 /* Menu */
-@verticalMargin: @medium;
+@verticalMargin: 0;
 @horizontalMargin: 0em;
 @margin: @verticalMargin @horizontalMargin;
 @background: @blue;

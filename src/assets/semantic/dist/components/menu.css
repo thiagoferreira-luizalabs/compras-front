@@ -23,7 +23,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 1rem 0em;
+  margin: 0 0em;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   background: #2B7CD7;
   font-weight: normal;
@@ -1928,7 +1928,7 @@ Floated Menu / Item
   bottom: 0px;
   margin-bottom: 0em;
   top: 0px;
-  margin-top: 1rem;
+  margin-top: 0;
   border-radius: 0 0 0em 0em;
 }
 .ui.menu[class*="top attached"]:first-child {
@@ -1940,7 +1940,7 @@ Floated Menu / Item
   bottom: 0px;
   margin-top: 0em;
   top: 0px;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   -webkit-box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15), none;
           box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15), none;
   border-radius: 0em 0em 0 0;
