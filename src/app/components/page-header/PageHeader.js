@@ -3,6 +3,8 @@ import { Menu, Dropdown, Image } from 'semantic-ui-react'
 import { Link } from "react-router-dom"
 import Strips from "../strips/Strips"
 import Logo from "../../../assets/img/magazineluiza.png"
+import "./page-header.css"
+
 
 export default () => (
   <div >

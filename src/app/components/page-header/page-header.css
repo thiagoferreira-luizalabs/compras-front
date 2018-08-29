@@ -184,3 +184,13 @@
 /*---  Brand   ---*/
 /*---  Dark Tones  ---*/
 /*---  Light Tones  ---*/
+.item.active {
+  border-bottom: 4px solid #FFCE00;
+}
+.navbar .right.menu.logout {
+  margin-right: 30px;
+}
+.navbar .logo {
+  height: 30px;
+  margin: 0 40px 0 40px;
+}
