@@ -1,4 +1,3 @@
-import Login from "../containers/login/Login"
 import Theme from "../containers/theme/Theme"
 import Home from "../containers/home/Home"
 

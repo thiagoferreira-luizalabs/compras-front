@@ -1,37 +1,18 @@
 import React from 'react';
-import { Menu, Dropdown, Image, Icon, Sidebar } from 'semantic-ui-react'
+import { Menu, Dropdown, Image, Icon } from 'semantic-ui-react'
 import { Link } from "react-router-dom"
 import Strips from "../strips/Strips"
 import Logo from "../../../assets/img/magazineluiza.png"
+import PropTypes from "prop-types"
+import itensMenu from "./ItemsMenu"
 import "./page-header.css"
-import { Menus } from "../../routes/Pages"
 
-
-export const MobileSidebar = ({ handleSidebarHide, visible }) => (
-  <Sidebar as={Menu} animation='overlay' icon='labeled' inverted onHide={handleSidebarHide} vertical visible={visible} width='thin' >
-    {ItemsMenu(Menus)}
-    <Menu.Item as={Link} to="/logout">Logout</Menu.Item>
-  </Sidebar>
-)
-
-
-export const ItemsMenu = (menus) => (
-  Object.keys(menus).map((key, idx) => (
-    <Dropdown key={idx} item text={menus[key].title} className={idx === 0 ? "active" : ""}>
-      <Dropdown.Menu>
-        {menus[key].subItems.map((item, idx) =>
-          (<Dropdown.Item as={Link} key={idx} to={item.route}>{item.menuName}</Dropdown.Item>))}
-      </Dropdown.Menu>
-    </Dropdown>
-  ))
-)
-
-const PageHeader = ({ onToggleSideBar }) => (
+const PageHeader = ({ handleSidebarToggle }) => (
   <div>
     <Strips />
 
     <Menu className="topbar-mobile" >
-      <Menu.Item onClick={onToggleSideBar}><Icon name="bars" /></Menu.Item>
+      <Menu.Item onClick={handleSidebarToggle}><Icon name="bars" /></Menu.Item>
       <Menu.Item as={Link} to="/home" className="logo"><Image src={Logo} /></Menu.Item>
     </Menu>
 
@@ -40,7 +21,7 @@ const PageHeader = ({ onToggleSideBar }) => (
         <Image src={Logo} className="logo" />
       </Menu.Item>
 
-      {ItemsMenu(Menus)}
+      {itensMenu}
 
       <Menu.Menu position='right' className="logout">
         <Dropdown item text='Olá, CBT_SILVA'>
@@ -53,5 +34,9 @@ const PageHeader = ({ onToggleSideBar }) => (
     </Menu>
   </div >
 )
+
+PageHeader.propTypes = {
+  handleSidebarToggle: PropTypes.func
+}
 
 export default PageHeader
