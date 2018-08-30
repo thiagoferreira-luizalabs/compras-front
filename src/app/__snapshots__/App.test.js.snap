@@ -400,7 +400,7 @@ exports[`Renders private page with menu 1`] = `
       className="pusher"
     >
       <div
-        className="ui basic segment"
+        className="ui basic segment content-wraper"
       >
         Testing
       </div>
@@ -571,7 +571,7 @@ exports[`Renders public page without menu 1`] = `
       className="pusher"
     >
       <div
-        className="ui basic segment"
+        className="ui basic segment content-wraper"
       >
         Testing
       </div>

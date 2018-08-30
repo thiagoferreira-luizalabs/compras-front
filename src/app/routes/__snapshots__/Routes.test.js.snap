@@ -400,7 +400,7 @@ exports[`Routes tests Render routes for authenticated user 1`] = `
       className="pusher"
     >
       <div
-        className="ui basic segment"
+        className="ui basic segment content-wraper"
       >
         <div
           className="ui container"
@@ -584,7 +584,7 @@ exports[`Routes tests Render routes for non authenticated user 1`] = `
       className="pusher"
     >
       <div
-        className="ui basic segment"
+        className="ui basic segment content-wraper"
       >
         <div
           className="login"

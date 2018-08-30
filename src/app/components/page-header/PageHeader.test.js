@@ -5,7 +5,7 @@ import { Menus } from "../../routes/Pages"
 
 it("Renders page header", () => {
   let wrapper = mount(
-    MemoryRouterHOC(<PageHeader menus={Menus} />)
+    MemoryRouterHOC(<PageHeader />)
   )
   expect(toJsonSnapshot(wrapper)).toMatchSnapshot()
 })

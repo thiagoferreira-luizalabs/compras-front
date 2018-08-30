@@ -1,9 +1,18 @@
 import React from 'react';
-import { Menu, Dropdown, Image, Icon } from 'semantic-ui-react'
+import { Menu, Dropdown, Image, Icon, Sidebar } from 'semantic-ui-react'
 import { Link } from "react-router-dom"
 import Strips from "../strips/Strips"
 import Logo from "../../../assets/img/magazineluiza.png"
 import "./page-header.css"
+import { Menus } from "../../routes/Pages"
+
+
+export const MobileSidebar = ({ handleSidebarHide, visible }) => (
+  <Sidebar as={Menu} animation='overlay' icon='labeled' inverted onHide={handleSidebarHide} vertical visible={visible} width='thin' >
+    {ItemsMenu(Menus)}
+    <Menu.Item as={Link} to="/logout">Logout</Menu.Item>
+  </Sidebar>
+)
 
 
 export const ItemsMenu = (menus) => (
@@ -17,7 +26,7 @@ export const ItemsMenu = (menus) => (
   ))
 )
 
-const PageHeader = ({ onToggleSideBar, menus }) => (
+const PageHeader = ({ onToggleSideBar }) => (
   <div>
     <Strips />
 
@@ -31,7 +40,7 @@ const PageHeader = ({ onToggleSideBar, menus }) => (
         <Image src={Logo} className="logo" />
       </Menu.Item>
 
-      {ItemsMenu(menus)}
+      {ItemsMenu(Menus)}
 
       <Menu.Menu position='right' className="logout">
         <Dropdown item text='Olá, CBT_SILVA'>
